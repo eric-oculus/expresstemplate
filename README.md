@@ -6,6 +6,7 @@ Clone from git
 npm install
 node bin/www
 Alternatively, in visual studio code, "Launch Server"
+Connect a browser to localhost:4000
 
 # Steps to create this template
 Install nodejs
