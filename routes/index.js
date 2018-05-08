@@ -34,7 +34,7 @@
 
     /* GET home page. */
     router.get('/', function(req, res) {
-        res.send('Hello world');
+        res.render('index', {title: 'Hello World', message: 'How\'s it goin\'?'});
     });
 
     module.exports = router;
